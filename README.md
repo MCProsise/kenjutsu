@@ -1,3 +1,3 @@
 # kenjutsu
 This is my kenjutsu
-Row my boat up to the shore.
+Row my boat up to the shore
