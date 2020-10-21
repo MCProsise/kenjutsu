@@ -3,7 +3,7 @@ import logging
 logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
 size = 501 
-# Assigns the number 5 to variable "size"
+# Assigns the number 501 to variable "size"
 
 def print_square(square): 
 # defines the function "print_square" with the required parameter "square"
@@ -13,7 +13,8 @@ def print_square(square):
     # for every element in the range of the length of "square"
        for x in range(len(square[y])): 
        # for every element in the current element in the range of the length of "square"
-           print("{:6}".format(square[x][y]), end="") #
+           print("{:6}".format(square[x][y]), end="") 
+           #
        print() 
        # prints a space
     print("-"*(2*5)) 
