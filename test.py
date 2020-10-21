@@ -1,15 +1,18 @@
 
 import logging
-logging.basicConfig(level=logging.DEBUG)
-def squared_threes():
-    return_value = []
-    
-    for num in range(0,100):
-        if num % 3 == 0:
-            square = num ** 2
-            print(square)
+logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
-    return return_value
+def fib(n):
+    first = 0
+    second = 1
+    for x in range(n):
+        print(first)
+        first, second = second, first+second
+
 if __name__ == "__main__":
-   for x in squared_threes():
-       print(x)
+    logging.debug("Calling fib(2)")
+    fib(2)
+    logging.debug("Calling fib(10)")
+    fib(10)
+    logging.debug("Calling fib(20)")
+    fib(20)
