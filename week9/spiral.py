@@ -3,7 +3,7 @@ import logging
 logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
 size = 501 
-# Assigns the number 501 to variable "size"
+# Assigns the number 501 to variable "size".
 
 def print_square(square): 
 # defines the function "print_square" with the required parameter "square"
